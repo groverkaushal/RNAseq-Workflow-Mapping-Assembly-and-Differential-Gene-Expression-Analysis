@@ -13,7 +13,11 @@ The workflow consists of the following steps:
 6. **Counts data generated using Cufflinks**
 7. **Differentially Expressed Genes calculated using CuffDiff**
 
+<br></br>
+
 ![Flowchart of the workflow followed in my project](https://github.com/groverkaushal/RNAseq-Workflow-Mapping-Assembly-and-Differential-Gene-Expression-Analysis/blob/main/Flowchart.png)
+
+Fig: Flowchart of the workflow followed in my project
 
 ## Datasets
 This project involves transcriptomic analysis to compare the salinity stress response in salinity-tolerant genotypes of chickpea. 
