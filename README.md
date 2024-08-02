@@ -21,7 +21,7 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
  
  
 
-- **BioProject:** PRJNA842022 (https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA842022&o=acc_s%3Aa)
+- **BioProject:** [PRJNA842022](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA842022&o=acc_s%3Aa)
 - **SRA Study:** SRP376874
 <br></br>
 - **Run ID:** SRR19383303 (Control Sample 1)
