@@ -41,7 +41,8 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
 - **Total Bases per Sample:** ~510 Mb (Million Bases)
 - **No. of reads per Sample:** ~10.4 Million reads
 - **Estimated Genome Size:** 500 Mb
-- **Estimated Read Coverage per Sample:** ~1X
+- **Estimated Transcriptome Size:** 77 Mb
+- **Estimated Transcriptome Coverage per Sample:** 510/77 = 6.6X
 
 
 
