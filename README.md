@@ -85,7 +85,7 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    git clone https://github.com/DaehwanKimLab/hisat2.git
    cd hisat2
    make
-   echo 'export PATH=$(pwd):$PATH' >> ~/.bashrc
+   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
@@ -99,7 +99,7 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    sudo apt-get install zlib1g-dev libncurses5-dev libncursesw5-dev liblzma-dev libbz2-dev libcurl4-openssl-dev
    cd samtools-1.20/
    make
-   echo 'export PATH=$(pwd):$PATH' >> ~/.bashrc
+   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
