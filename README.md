@@ -96,6 +96,7 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    wget https://github.com/samtools/samtools/releases/download/1.20/samtools-1.20.tar.bz2
    tar -xf samtools-1.20.tar.bz2 
    rm samtools-1.20.tar.bz2
+   sudo apt-get install zlib1g-dev libncurses5-dev libncursesw5-dev liblzma-dev libbz2-dev libcurl4-openssl-dev
    cd samtools-1.20/
    make
    echo 'export PATH=$(pwd):$PATH' >> ~/.bashrc
