@@ -3,7 +3,7 @@
 ### Downloading Reference Chickpea Genome
 mkdir 3_mapping
 cd 3_mapping
-datasets download genome accession GCF_000331145.1 --include-gtf
+datasets download genome accession GCF_000331145.1 --include gtf
 unzip ncbi_dataset.zip
 mv ncbi_dataset/data/GCF_000331145.1/genomic.gff ./
 mv ncbi_dataset/data/GCF_000331145.1/genomic.gtf ./
