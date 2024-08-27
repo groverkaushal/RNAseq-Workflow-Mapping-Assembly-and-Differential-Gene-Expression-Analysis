@@ -110,7 +110,7 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    git clone https://github.com/gpertea/stringtie
    cd stringtie
    make release
-   echo 'export PATH=$(pwd):$PATH' >> ~/.bashrc
+   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
@@ -122,7 +122,7 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    tar -xf cufflinks-2.2.1.Linux_x86_64.tar.gz
    rm cufflinks-2.2.1.Linux_x86_64.tar.gz
    cd cufflinks-2.2.1.Linux_x86_64
-   echo 'export PATH=$(pwd):$PATH' >> ~/.bashrc
+   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
