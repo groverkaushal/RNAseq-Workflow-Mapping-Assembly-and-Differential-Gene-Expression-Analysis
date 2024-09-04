@@ -79,18 +79,29 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    conda install -c conda-forge ncbi-datasets-cli
    ```
 
-5. Install HiSAT2:
+5. Install SRA-Toolkit
+   ```
+   wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.1.1/sratoolkit.3.1.1-ubuntu64.tar.gz
+   tar -xf sratoolkit.3.1.1-ubuntu64.tar.gz 
+   rm sratoolkit.3.1.1-ubuntu64.tar.gz 
+   cd sratoolkit.3.1.1-ubuntu64/bin/
+   echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bashrc
+   source ~/.bashrc
+   cd ..
+   ```
+   
+6. Install HiSAT2:
 
    ```
    git clone https://github.com/DaehwanKimLab/hisat2.git
    cd hisat2
    make
-   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
+   echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
 
-6. Install SamTools:
+7. Install SamTools:
 
    ```
    wget https://github.com/samtools/samtools/releases/download/1.20/samtools-1.20.tar.bz2
@@ -99,30 +110,30 @@ The dataset includes RNAseq sequencing reads from two control group samples and 
    sudo apt-get install zlib1g-dev libncurses5-dev libncursesw5-dev liblzma-dev libbz2-dev libcurl4-openssl-dev
    cd samtools-1.20/
    make
-   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
+   echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
 
-7. Install StringTie:
+8. Install StringTie:
 
    ```
    git clone https://github.com/gpertea/stringtie
    cd stringtie
    make release
-   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
+   echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
 
-8. Install CuffLinks:
+9. Install CuffLinks:
 
    ```
    wget http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.Linux_x86_64.tar.gz
    tar -xf cufflinks-2.2.1.Linux_x86_64.tar.gz
    rm cufflinks-2.2.1.Linux_x86_64.tar.gz
    cd cufflinks-2.2.1.Linux_x86_64
-   echo "export PATH=$(pwd):$PATH" >> ~/.bashrc
+   echo "export PATH=\"\$PATH:$(pwd)\"" >> ~/.bashrc
    source ~/.bashrc
    cd ..
    ```
